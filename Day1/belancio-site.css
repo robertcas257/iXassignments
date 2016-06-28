@@ -1,0 +1,49 @@
+body{
+	background-color:#EBB263;
+	background-size:cover;
+}
+header {
+	background-color:#EBB263;
+	background-size:cover;
+}
+
+.landing {
+	background-image:url("http://www.belancio.com/images/work/purdy-yoga.jpg");
+	background-size: cover;
+	height:720px;
+	background-repeat:no-repeat;
+	margin-top: -20px -10px 0px -10px;
+	font-family: helvetica, sans-serif;
+}
+
+h2 {
+	margin-top: 100px;
+	text-align:center;
+}
+
+ul {
+	list-style-type:none;
+}
+
+li {
+	float:right;
+	font-size:14px;
+	color:white;
+	font-family: verdana, sans-serif;
+	text-decoration: none;
+	padding:10px;
+	margin:24px 14px 0px 14px;
+}
+
+.clients {
+	background-color: #F6F6F6;
+	clear:both;
+	height: 249px;
+	background-size:cover;
+}
+
+.client_img {
+	height: 47px;
+	width:47px;
+	display:inline-block;
+}

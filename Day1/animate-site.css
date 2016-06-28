@@ -1,0 +1,74 @@
+body {
+	text-align: center;
+	font-style: verdana, sans-serif;
+}
+
+@font-face {
+    font-family: 'robotothin';
+    src: url('Roboto-Thin-webfont.eot');
+    src: url('Roboto-Thin-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Roboto-Thin-webfont.woff') format('woff'),
+         url('Roboto-Thin-webfont.ttf') format('truetype'),
+         url('Roboto-Thin-webfont.svg#robotothin') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+header {
+	padding: 24px;
+	font-family: 'robotothin';
+    src: url('Roboto-Thin-webfont.eot');
+    src: url('Roboto-Thin-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Roboto-Thin-webfont.woff') format('woff'),
+         url('Roboto-Thin-webfont.ttf') format('truetype'),
+         url('Roboto-Thin-webfont.svg#robotothin') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.site_header {
+	font-size: 96px;
+	color: #2FBD76;
+	margin-bottom: 24px;
+}
+
+.sub_header {
+	font-size: 24px;
+	color:#86979a;
+}
+
+
+.button {
+	border: 1px solid #c0c8c9;
+	border-radius: 4px;
+	padding:12px;
+	margin:6px;
+	position:relative;
+	align-items: center;
+	display: inline-block;
+	height: 24px;
+	width: 161px;
+
+}
+
+.bounce {
+	width:100px;
+}
+
+.animate {
+	border-width: 2px;
+	font-style: bold;
+	padding-top: 12px;
+	padding-bottom:12px;
+
+}
+
+hr {
+	border: none;
+	margin-top: -1px;
+	height: 1px;
+	background-color: #c0c8c9;
+}
