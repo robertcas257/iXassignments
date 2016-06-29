@@ -1,0 +1,133 @@
+* {
+	color:white;
+	background-color:black;
+	box-sizing: border-box;
+}
+
+.container {
+	margin: 0px auto;
+	width: 80%;
+	/*border: 2px solid white;*/
+}
+
+/*das straight navigation bar */
+
+h1 {
+	display:inline-block;
+}
+
+.navbar-header {
+	float:left;
+}
+
+.nav-logo {
+	display:inline-block;
+	margin-left: 120px;
+}
+
+
+.navbar-links {
+	display:inline-block;
+	float: right;
+}
+
+.navbar-items {
+	display:inline-block;
+	padding: 10px 20px 0px 20px;
+}
+
+/*this shit is da banner with text paragraph and contact info*/
+
+.banner {
+	padding-top: 75px;
+	padding-bottom: 25px;
+}
+
+.description {
+	display:inline-block;
+	float:left;
+	width:66%;
+	font-size:24px;
+}
+
+.description p {
+	padding-right:100px;
+}
+
+ul {
+	list-style-type:none;
+}
+
+.contact-social {
+	display:inline-block;
+	width:33%;
+	font-size:15px;
+}
+
+.contactinfo {
+	display:inline-block;
+	float:right;
+}
+
+.social-media {
+	display:inline-block;
+	float:right;
+}
+
+/* All image rows below */
+
+.img-row {
+	width: 100%;
+}
+
+.main-img {
+	width:66.66666666666666666%;
+	padding-bottom:20px;
+}
+
+.side-imgs {
+	width:33.333333333333333%;
+}
+
+.small {
+	width:100%;
+	display:block;
+}
+
+.img-pad-l {
+	padding: 0px 0px 20px 20px;
+}
+
+.img-pad-r {
+	padding: 0px 20px 20px 0px;
+}
+
+.final-row-img {
+	width:33%;
+}
+
+.left {
+	float:left;
+	display:inline-block;
+}
+
+.right {
+	float:right;
+	display:inline-block;
+}
+
+/* this helps, don't worry about understanding.. for now */
+
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */

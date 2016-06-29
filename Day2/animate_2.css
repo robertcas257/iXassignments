@@ -1,0 +1,37 @@
+body {
+	text-align: center;
+}
+
+.landing {
+	padding: 24px;
+}
+
+h1 {
+	font-size: 96px;
+	color:#B581FF;
+	margin-bottom:24px;
+}
+
+h2 {
+	font-size: 24px;
+	color:#7b8993;
+	
+}
+
+.play_box {
+	padding:24px;
+}
+
+.buttons {
+	border-radius: 4px;
+	margin-bottom: 24px;
+}
+
+.butt-primary {
+
+}
+
+.butt-secondary {
+
+
+}
