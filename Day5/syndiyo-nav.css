@@ -1,0 +1,158 @@
+/** {
+	border:1px solid black;
+}
+*/
+/* .container {
+	border:1px solid black;
+} */
+/*Navbar shit*/
+/* .columns {
+	border: 2px solid red;
+} */
+
+.top-nav {
+	position: fixed;
+  left:0;
+  right:0;
+/* 	border: 1px solid black; */
+}
+
+.ham-img {
+  width:40px;
+}
+.hamburger {
+  position:fixed;
+  padding:10px;
+  margin-top:0px;
+  float:right;
+  display:none;
+  
+}
+ul {
+  position:relative;
+  top:10px;
+}
+
+.mynav-items {
+	float:right;
+/* 	border: 1px solid black; */
+  padding: 0px 20px;
+  list-style-type:none;
+  
+}
+
+
+/*all for the main splash image container*/
+.splash {
+	background-image: url("http://i347.photobucket.com/albums/p448/robertcas257/lpBackground_zpsfq68l0jg.jpg?t=1467231602");
+	background-size:cover;
+	height:500px;
+	font-family: helvetica, sans-serif;
+	color:#356769;
+}
+.container-splash {
+	height:500px;
+}
+
+.top-header {
+	margin-top: 30px;
+}
+
+.top-header, .sub-header {
+	font-size:30px;
+	margin-right: 20px; 
+	margin-left: 20px;
+}
+
+.text-center {
+	text-align:center;
+}
+
+.text-right, .h2-1 {
+	text-align:right;
+	margin-right:-15px;
+	font-size:20px;
+}
+
+.h2-1 strong {
+	color:transparent;
+}
+
+.text-left, .h2-2 {
+	text-align:left;
+	margin-left:-15px;
+	font-size:20px;
+}
+
+.splash-logo {
+	padding-top:100px;
+	padding-right:10px;
+	padding-left:10px;
+	width:390px;
+}
+
+.btnl-edits, .btnr-edits {
+	border-radius: 15%;
+	padding: 10px;
+	margin-top:50px;
+	width:200px;
+}
+
+.btnl-edits {
+	position:absolute;
+	right: 10px;
+}
+
+.case-view {
+	width:100%;
+	padding:0px 100px;
+}
+
+.case-description{
+	padding: 0px 5em 0px 5em;
+}
+
+@media(max-width:767px) {
+  .hamburger {
+    display: block;
+  }
+  
+  .mynav-items {
+    display:none;
+  }
+  
+  .h2-2, .h2-1 {
+		text-align:center;
+	}
+
+	.h2-2 strong {
+		display:none;
+	}
+/*pretty ridiculous hack to center the second line when it goes below..Not best practice*/
+	.h2-2 {
+		margin-top:-10px;
+		margin-right:-20.11px;
+	}
+	
+	.btnl-edits, .btnr-edits {
+		position: relative;
+		left:50%;
+		transform: translate(-50%);
+	}
+
+	.btnl-edits {
+		margin-top:-1px;
+		}
+
+	.btnr-edits {
+		margin-top:10px;
+	}
+}
+
+@media(max-width:992px) {
+
+		.case-view {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+}

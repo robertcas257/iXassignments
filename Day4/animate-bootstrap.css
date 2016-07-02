@@ -1,0 +1,20 @@
+* {
+	text-align:center;
+}
+
+.orange-border {
+	border: 2px solid orange;
+	padding:20px;
+}
+
+.blue-border {
+	border: 2px solid blue;
+	padding: 20px;
+}
+
+@media (max-width:768px) {
+	.orange-border {
+		border: 2px solid green;
+	}
+}
+

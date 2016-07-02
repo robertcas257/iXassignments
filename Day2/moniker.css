@@ -7,7 +7,7 @@
 .container {
 	margin: 0px auto;
 	width: 80%;
-	/*border: 2px solid white;*/
+	border: 2px solid white;
 }
 
 /*das straight navigation bar */
@@ -104,16 +104,17 @@ ul {
 
 .final-row-img {
 	width:33%;
+	display:block;
 }
 
 .left {
 	float:left;
-	display:inline-block;
+	display:block;
 }
 
 .right {
 	float:right;
-	display:inline-block;
+	display:block;
 }
 
 /* this helps, don't worry about understanding.. for now */

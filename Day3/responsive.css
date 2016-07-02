@@ -1,0 +1,58 @@
+* {
+	box-sizing: border-box;
+}
+
+.container {
+	max-width:1000px;
+	margin: 0px auto;
+	border: 3px solid black;
+}
+
+.responsive-image {
+	display:block;
+	width:25%;
+	float: left;
+}
+
+.first {
+	border:2px solid red;
+}
+
+.second {
+	border:2px solid yellow;
+}
+
+.third {
+	border:2px solid blue;
+}
+
+.fourth {
+	border:2px solid orange;
+}
+
+@media(max-width: 768px) {
+	.responsive-image {
+		width:50%;
+	}
+}
+
+@media(max-width: 480px) {
+	.responsive-image {
+		width:100%;
+		float:none;
+	}
+}
+
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */

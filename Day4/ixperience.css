@@ -1,0 +1,35 @@
+
+.top {
+	background-image: url(http://dumsld4by7gdn.cloudfront.net/assets/backgrounds/about-main-4592d05f63d029bc507a249853a99997f10a27bcf2162fe0a78ec1ed2f233d28.jpg);
+	height:450px;
+	text-align: center;
+}
+
+.transparent {
+	background: transparent;
+	background-color: transparent;
+
+}
+
+.top-header {
+	padding-top: 100px;
+	text-align: center;
+}
+
+.img {
+	height:200px;
+	width:200px;
+	border-radius: 100%;
+
+}
+
+@media(max-width: 768px) {
+	h3 {
+		text-align:center;
+	}
+}
+
+.left {
+	display: block;
+	float:left;
+}
