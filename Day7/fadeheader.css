@@ -1,0 +1,40 @@
+
+
+body {
+  min-height: 130vh;
+  padding-top: 80px
+}
+
+.container {
+  max-width: 800px;
+  margin: 0px auto;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 70px;
+  padding: 10px;
+  background: black;
+  color: white;
+  transition: all .3s;
+}
+
+header.at-top {
+  color: white;
+  background: white;
+}
+
+header h1 {
+  float: left;
+  margin: 0;
+}
+header ul {
+  float: right;
+}
+
+header ul, header li {
+  display: inline-block;
+}

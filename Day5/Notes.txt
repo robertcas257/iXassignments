@@ -1,0 +1,14 @@
+**/ Thank you :) -Rob
+	Sidenote - trying to make it to where when you click the hamburger (on the left with sm screen), a grey column shoots out on the left with "About, Team, For doctors, For patients"
+
+	Ideas on how?
+
+	Also gonna make the features and description hover over the photo
+
+	Recommendations welcome..
+**/
+
+hamburger on the right side when sizing? 
+hamburger bun too big? 
+some sort of color on nav bar to differentiate between the page and that (when you scroll you can't always see the nav text)
+For the dropdown menu, search "css dropdown" on google and go to the w3 schools link! Should be what you're looking for. 
