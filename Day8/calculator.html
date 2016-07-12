@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    
+    <title>calculator</title>
+  
+</head>
+<body ng-app='calculatorApp'>
+	<div ng-controller='CalculatorCtrl'>
+		<input ng-model='x'>
+		<input ng-model='y'>
+		<button ng-click='doAdd()'>Add Numbers </button>
+		<p> The result is: {{ result }} </p>
+
+		<button ng-click='doMultiply()'>Multiply Numbers </button>
+		<p> The result is: {{ result }} </p>
+
+	</div>
+
+
+	
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.7/angular.js"></script>
+	<script src="calculator.js"></script>	
+</body>
+
+</html>

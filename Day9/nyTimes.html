@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link type="text/css" rel="stylesheet" href="nyTimes.css">
+  </head>
+  <body ng-app="nyTimesAPI">
+    <div class="container">  
+      <div ng-controller="nyTimesSearch">
+        <input type="text" ng-model="searchItem">
+        <button ng-click="searchNY(searchItem)">Search NY Times</button>
+        <div ng-repeat="a in articles">
+          <h4><a href="{{a.web_url}}">{{a.headline.main}}</a></h4>
+          <p>{{a.snippet}}</p>
+        </div>  
+      </div>  
+    </div>  
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.7/angular.js"></script>
+    <script src="nyTimes.js"></script>
+  </body>
+</html>

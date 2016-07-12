@@ -1,0 +1,12 @@
+<div class="row" ng-controller="MovieCtrl">
+	<div class="col-md-12">
+		<h3>{{movie.Title}}</h3>
+		<p>{{movie.Plot}} </p>
+	</div>	
+
+	<div ng-repeat="g in gifs">
+		<div class="col-md-4">
+		<img src="{{g.images.downsized.url}}">
+		</div>
+	</div>	
+</div>

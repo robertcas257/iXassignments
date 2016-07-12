@@ -1,0 +1,8 @@
+<div ng-controller="MainCtrl">
+		<h2>Search for a movie broo </h2>
+		<input ng-model="searchItem">
+		<button class="btn-primary" ng-click="searchMovies(searchItem)"> Search </button>
+		<div ng-repeat="m in movies"> 
+		<a href="#/movie/{{m.imdbID}}">{{m.Title}}</a>
+		</div>
+</div>	

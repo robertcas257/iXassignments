@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  </head>
+  <body ng-app="groceryList">
+    <div ng-controller="GroceryCtrl">
+      <h2>Rob's Grocery list </h2>
+      <p>Enter grocery items: <p>
+      <input ng-model="itemName">
+      <p>Enter grocery item quantities </p>
+      <input type="number" ng-model="itemQty">
+      <button ng-click="addItem()">Add</button>
+      
+      <hr>
+      <label>Search: <input ng-model="searchText"></label>
+      <ol>
+        <button ng-click="emptyCart()">Empty Cart </button>
+        <li ng-repeat="item in grocItems | filter:searchText">
+          <div ng-hide="item.isEditing">
+            <span ng-dblclick="item.isEditing=true"> {{item.itemName}} : {{ item.itemQty }} </span>
+            <button ng-click="add(item)">+</button>
+            <button ng-click="subtract(item)">-</button>
+            <button ng-click="delete($index)">x</button>
+            <button ng-click="item.isEditing=true">Edit</button>
+          </div>
+          <div ng-show="item.isEditing">
+            <input ng-model="item.itemName">
+          <!-- Trying to set this  -->
+            <input type="number" ng-model="item.itemQty">
+            <button ng-click="item.isEditing = false">Done</button>
+          </div>
+
+            
+        </li>
+      </ol>
+      
+    </div>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.7/angular.js"></script>
+    <script src="groceryday9.js"></script>
+  </body>
+</html>
